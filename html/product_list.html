@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <link rel="stylesheet" href="css/table_style.css">
+</head>
+<body>
+<form action="{url_site}" method="post" >
+ <input type="submit" id="logout" value="logout" name="logout">
+</form>
+<form action="{url_site}" method="post" >
+  <table>
+    <tr>
+       <th>
+         <input type="text" placeholder="name for store" name="store_name" required>
+       </th>
+       <th>
+         <input type="text" placeholder="street for store" name="street" required>
+       </th>
+       <th>
+         <input type="text" placeholder="city for store" name="city" required>
+       </th>
+       <th>
+         <input type="text" placeholder="phone for store" name="phone" required>
+       </th>
+       <th>
+         <input type="text" placeholder="owner for store" name="owner" required>
+       </th>
+    </tr>
+  </table>
+  <center>
+  <input type="submit" id="add_store" value="add store" name="add_store">
+  </center>
+</form>
+
+<form action="{url_site}" method="post" >
+  <table>
+    <tr>
+       <th>
+         <input type="text" placeholder="search name for store" name="search" required>
+       </th>
+    </tr>
+  </table>
+  <center>
+  <input type="submit" id="search" value="search" name="search_form">
+  </center>
+</form>
+
+
+<h2>HTML Table</h2>
+{table}
+<br>
+<br>
+<br>
+<br>
+<form action="{url_site}" method="post" >
+  <table>
+    <tr>
+       <th>
+         <input type="text" placeholder="search name for store" name="search_trust" required>
+       </th>
+    </tr>
+  </table>
+  <center>
+  <input type="submit" id="search_trust" value="search_trust" name="search_form_trust">
+  </center>
+</form>
+
+
+<h2>HTML Table trust</h2>
+{table_trust}
+
+
+
+</body>
+</html>
